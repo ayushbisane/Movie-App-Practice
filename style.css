@@ -119,17 +119,16 @@
 }
 .movie{
   display: flex;
-  height: 250px;
+  height: 270px;
   background-color: #000000;
   justify-content: space-around;
   padding: 0 120px;
 }
 
 .movie img {
-  width: 150px;          
-  
+  width: 160px;          
   object-fit: cover;
-  margin-top: 5px;
+  margin-top: 10px;
   border-radius: 6px;
 }
 /* reasons */
@@ -139,15 +138,128 @@
     color: aliceblue;
 }
 .r-temp{
-    padding-left: 100px;
+    padding-left: 120px;
+    font-size:70%;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .cont{
     display: flex;
-    box-sizing: border-box;
+    box-sizing:border-box;
     gap:20px;
     padding: 5px 120px 0px 120px;
     word-wrap: normal;
 }
 .cont div{
-    border:1px solid black;
+   
+    color:#FFFFFFB3;
+    width: 300px;
+    background: radial-gradient(circle at bottom right, #392440 0%, #121016 70%);
+    height: 250px;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding:0 30px;
 }
+.div, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    margin-top: 23px;
+    font-weight:700;
+    color: aliceblue;
+}
+
+/*  logo */
+
+.tv {
+  position: relative;
+  background: radial-gradient(circle at bottom right, #392440 0%, #121016 70%);
+  border-radius: 16px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+.tv p{
+    font-size: 0.90rem;
+}
+
+/* The Logo - Positioned to Bottom Right */
+.tv svg {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  width: 60px;  
+ 
+}
+.offline {
+  position: relative;
+  background: radial-gradient(circle at bottom right, #392440 0%, #121016 70%);
+  border-radius: 16px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  
+}
+.offline p{
+    font-size: 0.90rem;
+}
+.offline svg{
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  width: 60px; 
+}
+.wt {
+  position: relative;
+  background: radial-gradient(circle at bottom right, #392440 0%, #121016 70%);
+  border-radius: 16px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  
+}
+.wt p{
+    font-size: 0.90rem;
+}
+.wt svg{
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  width: 60px; 
+}
+.pr {
+  position: relative;
+  background: radial-gradient(circle at bottom right, #392440 0%, #121016 70%);
+  border-radius: 16px;
+  color:#FFFFFFB3;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  
+}
+.pr  p{
+    font-size: 0.90rem;
+}
+.pr svg{
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  width: 60px; 
+}
+/* FAQ */
+
+.question{
+    height: 700px;
+    background-color: #000000;
+}
+ .t-cont{
+    margin-left: 120px;
+    width: 88rem;
+ }
+.t-cont h2{
+  border: 1px solid white;
+  width:80%;
+  height:75px;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.144);
+  border: none;
+  
+}
+
