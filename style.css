@@ -246,6 +246,7 @@
 .question{
     height: 700px;
     background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
 }
  .t-cont{
     margin-left: 120px;
@@ -260,6 +261,31 @@
   align-items: center;
   background-color:rgba(255, 255, 255, 0.144);
   border: none;
-  
+ 
+}
+.temp h1{
+    font-size: 20px;
 }
 
+.row1 h2,
+.row2 h2, 
+.row3 h2, 
+.row4 h2, 
+.row5 h2, 
+.row6 h2 {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;     
+  margin: 10px;
+    font-size: 20px;       
+  font-weight: 400;
+  padding-right: 10px;
+}
+.row1 h2:hover,
+.row2 h2:hover, 
+.row3 h2:hover, 
+.row4 h2:hover, 
+.row5 h2:hover, 
+.row6 h2:hover{
+background-color:#5e636e;
+}
